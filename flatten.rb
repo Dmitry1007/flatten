@@ -6,7 +6,7 @@ class CustomArray
   end
 
   def flatten
-    array.reject { |array| }
+    array.join.chars.map(&:to_i)
   end
 end
 
