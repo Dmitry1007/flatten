@@ -15,6 +15,8 @@ Implement a `CustomArray` class that works like this:
 > c.flatten
 => [1, 2, 3, 4, 5]
 ```
+
+```ruby
 > d = CustomArray.new([[12,2],[3,[4,5]]])
 > d.flatten
 => [12, 2, 3, 4, 5]
